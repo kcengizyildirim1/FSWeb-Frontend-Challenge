@@ -1,8 +1,8 @@
 const Header = () => {
   return (
     <header>
-      <div className="">
-        <div className="w-[80%] mx-auto  flex flex-col">
+      <div>
+        <div className="w-[80%]  mx-auto  flex flex-col">
           <div className="m-3 flex gap-5 justify-end">
             <label className="relative inline-flex items-center cursor-pointer">
               <input type="checkbox" value="" className="sr-only peer" />
@@ -15,14 +15,14 @@ const Header = () => {
               <span className="text-[#4731D3] font-bold">TÜRKÇE</span>'YE GEÇ
             </p>
           </div>
-          <div className="flex justify-between m-3 items-center">
+          <div className="flex justify-between m-3 items-center flex-wrap">
             <a
               className="rounded-full bg-[#EEEBFF] p-4 rotate-[30deg] "
               href="#"
             >
               KCY
             </a>
-            <nav className="gap-10 flex font-['Inter'] font-500 text-lg ">
+            <nav className="gap-10 flex font-['Inter'] font-500 text-lg text-gray-500">
               <a className="p-3" href="">
                 Skills
               </a>
