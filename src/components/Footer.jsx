@@ -12,10 +12,18 @@ const Footer = () => {
               k.cengizyildirim@gmail.com
             </span>
           </a>
-          <nav className="flex gap-[6rem] justify-between text-[1.125rem]">
+          <nav className="flex gap-[6rem] justify-between text-[1.125rem] font-medium">
             <a href="#">Personal Blog</a>
-            <a href="https://github.com/kcengizyildirim1">Github</a>
-            <a href="https://www.linkedin.com/in/k%C3%BCr%C5%9Fad-cengiz-y%C4%B1ld%C4%B1r%C4%B1m-83a239213/">
+            <a
+              className="text-[#00AB6B]"
+              href="https://github.com/kcengizyildirim1"
+            >
+              Github
+            </a>
+            <a
+              className="text-[#0077B5]"
+              href="https://www.linkedin.com/in/k%C3%BCr%C5%9Fad-cengiz-y%C4%B1ld%C4%B1r%C4%B1m-83a239213/"
+            >
               Linkedin
             </a>
           </nav>
