@@ -23,9 +23,9 @@ const Header = () => {
           <FontAwesomeIcon icon={faMoon} size="xl" color="#F6F1D5" />
           <p className="dark:text-[#fff]">|</p>
 
-          <p>
+          <button>
             <span className="text-[#4731D3] font-bold">TÜRKÇE</span>'YE GEÇ
-          </p>
+          </button>
         </div>
         <div className="flex justify-between m-3 items-center flex-wrap">
           <a
