@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 
 const App = () => {
   return (
-    <div className=" font-['Inter']">
+    <div className=" font-['Inter']  dark:bg-[#252128]">
       <Header />
       <Hero />
       <Skills />
