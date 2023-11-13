@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className="font-['Inter']">
+    <div className="font-['Inter'] w-[80%] mx-auto">
       <h2 className="text-5xl font-bold my-5">SKILLS</h2>
       <div className="flex justify-between">
         <div className="flex flex-col w-[18rem]">

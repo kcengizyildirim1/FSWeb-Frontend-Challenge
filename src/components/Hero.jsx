@@ -1,10 +1,10 @@
-import kcy from "../assets/kcy.jpg";
+import kcy from "./kcy.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Hero = () => {
   return (
-    <main className="flex flex-col pt-20">
+    <main className="flex flex-col pt-20 w-[80%] mx-auto">
       <div className="flex items-center gap-5">
         <div className="border-solid border-b-2 w-[6rem] flex border-indigo-700"></div>
         <p className="text-lg font-['Inter']">Kürşad Cengiz Yıldırım</p>

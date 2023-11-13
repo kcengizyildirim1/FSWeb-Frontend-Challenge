@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header>
-      <div className="  flex flex-col">
+      <div className="flex flex-col w-[80%] mx-auto">
         <div className="m-3 flex gap-5 justify-end">
           <label className="relative inline-flex items-center cursor-pointer">
             <input type="checkbox" value="" className="sr-only peer" />
