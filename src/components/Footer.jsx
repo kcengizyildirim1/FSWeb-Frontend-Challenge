@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="flex flex-col font-['Inter'] bg-[#F9F9F9] dark:bg-[#141414]">
-      <div className="w-[80%] mx-auto py-10">
+      <div className="w-[80%] mx-auto py-10 ">
         <h2 className="text-[2.625rem] max-w-[30rem] font-semibold dark:text-[#AEBCCF]">
           Let’s work together on your next product.
         </h2>

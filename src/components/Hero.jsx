@@ -12,7 +12,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="flex gap-5 justify-between font-['Inter'] flex-wrap">
-        <div className="flex flex-col w-[50%] h-[30rem]">
+        <div className="flex flex-col w-[50%]">
           <h1 className="text-7xl font-bold my-10 dark:text-[#AEBCCF]">
             Creative thinker Minimalism lover
           </h1>
