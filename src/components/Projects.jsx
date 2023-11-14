@@ -12,11 +12,7 @@ const Projects = () => {
       <div className="flex justify-between gap-5 flex-wrap">
         {data.map((veri) => (
           <div key={veri.title} className="flex flex-col  max-w-[30rem]">
-            <img
-              className="bg-cover object-cover"
-              src={veri.img}
-              alt={veri.title}
-            />
+            <img className="object-cover" src={veri.img} alt={veri.title} />
             <h2 className="text-3xl py-4 text-indigo-700 font-medium dark:text-[#CFCBFF]">
               {veri.title}
             </h2>

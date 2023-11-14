@@ -14,7 +14,7 @@ const Header = () => {
             <input
               type="checkbox"
               className="sr-only peer"
-              onClick={toggleDarkMode}
+              onChange={toggleDarkMode}
               checked={theme}
             />
 
